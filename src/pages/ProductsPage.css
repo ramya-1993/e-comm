@@ -1,0 +1,30 @@
+/* src/pages/ProductsPage.css */
+.products-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.products-page h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  justify-content: center; /* Center the grid items if there aren't enough to fill a row */
+}
+
+.loading-message,
+.error-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  padding: 50px;
+}
+
+.error-message {
+  color: #d9534f; /* Red for errors */
+}

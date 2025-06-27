@@ -1,0 +1,57 @@
+/* src/pages/HomePage.css */
+.home-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-section {
+  background-color: #61dafb; /* React blue */
+  color: white;
+  padding: 60px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.shop-now-button {
+  background-color: #282c34;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+  background-color: #444;
+}
+
+.about-section {
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
